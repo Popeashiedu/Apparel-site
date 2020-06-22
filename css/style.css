@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+@media all  and (max-width: 425px){
+  #navbarSupportedContent{
+    text-align: center;
+    
+    
+  }
+  /* Navbar start */
+  #navbar{
+    background-color: white!important;
+  }
+  .mobile-navlist{
+    background-color: #F8F9FA!important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(250, 155, 3, 0.5);
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: rgba(65,126,41,1);
+}
+  /* Navbar end  */
+
+  /* Contact us start */
+  .mobile-contact-us-p{
+    background-color: #F8F9FA;
+    color: #333333;
+    padding: 2rem 2rem 3rem 1rem;
+    position: relative;
+  }
+  .mobile-contact-us-p::before{
+    content: "";
+    width: 3%;
+    height: 80%;
+    background-color: #FA9B03;
+    position: absolute;
+    left: -7px;
+    bottom: -7px;
+    transition: all 0.3s ease-in-out;
+  }
+  .mobile-contact-us-p::after{
+    content: "";
+    width: 25%;
+    height: 5%;
+    background-color: #FA9B03;
+    position: absolute;
+    left: -7px;
+    bottom: -7px;
+    transition: all 0.3s ease-in-out;
+  }
+/* Contact us end   */
+
+#mobile-contact-btn{
+  background-color:#FA9B03;
+  color: white;
+  border: none;
+  border-radius: 0%;
+  
+}
+#mobile-contact-btn:hover{
+  background-color:white;
+  color: #FA9B03;
+  border: none;
+  box-shadow: 1px 1px #FA9B03;
+}
+
+#mobile-subscription-row{
+  background-color: #FFFCF1;  
+  font-size: 17.5px;
+  padding: 2rem 1rem;
+
+}
+.form-control {
+  border: 1px solid rgba(65,126,41,1);
+  border-radius: 0%;
+
+}
+.mobile-subscribe-btn-col{
+  margin-left: 0%;
+}
+
+.mobile-contact-subscribeer-input{
+  border-radius: 0%;
+  border: solid 1.2px #FA9B03;
+  height: 0px;
+  padding: .5rem .25rem;
+  font-size: 14px;
+  width: 106%;
+}
+#mobile-subscribe-btn{
+  border-radius: 0px;
+    padding: 0.2rem;
+    height: 23.5px;
+    margin-top: -5%;
+    background-color: #FA9B03;
+    border-color: #FA9B03;
+    font-size: 0.5rem;
+}
+.foot-section{
+  background-color: #FA9B03;
+  margin-top: -8%;
+}
+.foot-section ul{
+  list-style: none;
+  color: white;
+  font-size: 12px;
+}
+.foot-section a{
+  color: white;
+}
+.mobile-footer-hr{
+  background-color: white;
+}
+}
